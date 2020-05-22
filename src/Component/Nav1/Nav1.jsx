@@ -11,12 +11,12 @@ export default function Nav1() {
             {/* className="level1"  */}
             <Row justify="space-between" align="middle">
 
-                <Col className="left-titleholder" span={12}>
+                <Col span={12}>
                     <Title level={3} style={{ color: "#bac2bc", marginTop: "5px" }}> MAINTANCE SUMMARY </Title>
                 </Col>
 
                 <Col span={12} >
-                    <Row className="two" justify="end" align="middle" >
+                    <Row justify="end" align="middle" >
                         <Col className="input" span={8} >
                             <Input placeholder="Search.." />
                         </Col>
